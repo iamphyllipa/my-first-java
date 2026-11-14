@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>variables</title>
+</head>
+<body>
+    <script>
+       let hour = '14';
+       let name ='philipa';
+       
+       if (hour >= 6 && hour <=12)
+       {
+         console.log(`good morning ${name}`);
+       }
+
+       else if(hour >= 13 && hour <=17)
+       {
+        console.log(`good afternoon ${name}`);
+       }
+
+
+       else 
+       {
+        console.log('good night ${name}');
+       } 
+
+       // exercise 2
+      /*  let age = '62';
+
+        if (age<=6 || age >= 65)
+       {
+        console.log('discount');
+       }
+
+       else
+       {
+        console.log('no discount');
+       } */
+
+       //exercise 3
+
+       let randomNumber = Math.random();
+      let result = '';
+      let guess = 'head';
+
+       if (randomNumber < 0.5)
+       {
+        result = 'head';
+        
+       }
+
+       else {
+        result = 'tail';
+       }
+       console.log(result);
+
+
+       if (guess === result)
+       {
+        console.log('you win');
+       }
+
+       else{
+        console.log('you lose');
+       }
+    </script>
+</body>
+
+</html>
